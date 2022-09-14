@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.calculator {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 290px;
+  backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 20px;
+}
+
+.screen {
+  font-size: 45px;
+  color: white;
+  border-radius: 20px;
+  text-align: end;
+  width: 100%;
+  padding: 0px 10px;
+  border: none;
+  outline: none;
+  backdrop-filter: blur(16px) saturate(180%);
+  background: linear-gradient(45deg, rgb(114, 114, 114), #494949);
+  border-radius: 12px;
+}
+
+button {
+  height: 55px;
+  width: 55px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 600;
+  backdrop-filter: blur(16px) saturate(180%);
+  background: linear-gradient(45deg, transparent, #494949);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.equalsToBtn {
+  width: 190%;
+  border-radius: 25px;
+  background: deepskyblue;
+  color: white;
+}
